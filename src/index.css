@@ -1,0 +1,166 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button{
+  margin: 4px;
+}
+
+button.add {
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: forestgreen;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button.add:hover {
+  border-color: rgb(15, 61, 15);
+}
+button.add:focus,
+button.add:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.pink{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.pink:hover{
+  border-color: #ced1d3;
+}
+
+.pink:focus,
+.pink:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.purple{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: rgb(132, 74, 187);
+  cursor: pointer;
+}
+
+.purple:hover{
+  border-color: #ced1d3;
+}
+
+.purple:focus,
+.purple:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.yellow{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: gold;
+  cursor: pointer;
+}
+
+.yellow:hover{
+  border-color: #ced1d3;
+}
+
+.yellow:focus,
+.yellow:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.blue{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.blue:hover{
+  border-color: #ced1d3;
+}
+
+.blue:focus,
+.blue:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.green{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: rgb(55, 161, 55);
+  cursor: pointer;
+}
+
+.green:hover{
+  border-color: #ced1d3;
+}
+
+.green:focus,
+.green:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 150px;
+}
+
+textarea{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 150px;
+}
+
+.note-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.noteCard{
+  border: 1px solid #3B3B3B;
+  border-radius: 100px;
+  background-color: darkorchid;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
